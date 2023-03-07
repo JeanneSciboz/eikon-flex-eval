@@ -85,7 +85,7 @@
   display: flex;
   flex-flow: row wrap;
   align-content: center;
-  justify-content: baseline;
+  align-items: baseline;
 }
 
 .exercice-8 .element-blue {
