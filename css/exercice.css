@@ -52,9 +52,8 @@
 
 /* 6. exercice-6 */
 .exercice-6 .container {
- 
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: center;
   align-content: space-between;
@@ -62,22 +61,16 @@
 
 .exercice-6 .element-pink {
   flex-grow: 1;
-  order: 6;
-
 }
 
 .exercice-6 .element-yellow {
-  order: 5;
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
-.exercice-6 .element-red {
-  order: 4;
+.exercice-6.element-gray {
+  flex-grow: 1;
 }
 
-.exercice-6 .element-gray {
-  order: 3;
-}
 
 /* 7. exercice-7 */
 .exercice-7 .container {
